@@ -7,13 +7,13 @@ Pure JavaScript 2048 game logic. The package does not use Svelte, the DOM, or br
 After publishing under your npm account scope, install it with:
 
 ```sh
-npm install @xiuxiuying/arcade-core
+npm install @xiuxiuy/arcade-core
 ```
 
 ## Use
 
 ```js
-import { move, spawn, hasMoves, canMove } from '@xiuxiuying/arcade-core';
+import { move, spawn, hasMoves, canMove } from '@xiuxiuy/arcade-core';
 
 const board = [
   [2, 2, 0, 0],
