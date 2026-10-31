@@ -1,6 +1,6 @@
 {
 	"name": "@xiuxiuy/arcade-core",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "Pure JavaScript game logic for a 2048 game",
 	"type": "module",
 	"main": "./src/index.js",
