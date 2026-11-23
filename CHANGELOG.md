@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0
+
+- Added Battleship rules: `isValidShot`, `updateBoard`, `createRandomBoard`, `isGameComplete`, plus `getSunkShips`, `shipAt`, `FLEET` and `BOARD_SIZE`.
+
 ## 0.1.3
 
 - Added changelog entries for recent releases.

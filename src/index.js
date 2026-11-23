@@ -113,3 +113,14 @@ export function canMove(board, direction) {
 	const next = move(board, direction);
 	return next.some((row, rowIndex) => row.some((tile, columnIndex) => tile !== board[rowIndex][columnIndex]));
 }
+
+export {
+	BOARD_SIZE,
+	FLEET,
+	createRandomBoard,
+	getSunkShips,
+	isGameComplete,
+	isValidShot,
+	shipAt,
+	updateBoard
+} from './battleship.js';
